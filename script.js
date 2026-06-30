@@ -21,7 +21,7 @@ openBook.addEventListener("click",async ()=>{
 
   try{ await bgMusic.play(); }catch(e){ console.log("Music blocked:",e); }
 
-  renderPDF("assets/magazine.pdf");
+  renderPDF("magazine.pdf");
 });
 
 async function renderPDF(url){
